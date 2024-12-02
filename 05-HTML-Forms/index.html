@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="">
+      <section>
+        <label for="firstName"
+          >First Name:
+          <input id="firstName" type="text" name="firstName" />
+        </label>
+      </section>
+      <br />
+
+      <section>
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" type="text" name="lastName" />
+      </section>
+      <br />
+
+      <section>
+        <label
+          >Email:
+          <input type="email" name="email" />
+        </label>
+      </section>
+      <br />
+
+      <section>
+        <label
+          >Telephone:
+          <input type="tel" name="telephone" />
+        </label>
+      </section>
+      <br />
+
+      <section>
+        <label
+          >Your message:
+          <textarea name="textarea"></textarea>
+        </label>
+      </section>
+
+      <br />
+
+      <section>
+        <h3>Select (dropdown)</h3>
+        <label
+          >What is your favorite color:
+          <select name="favoriteColor">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="orange">Orange</option>
+            <option value="blue">Blue</option>
+            <option value="White">White</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </label>
+      </section>
+      <br />
+
+      <section>
+        <h3>Radio</h3>
+        <fieldset>
+          <legend>What is your favorite meal?</legend>
+          <input
+            id="breakfast"
+            type="radio"
+            name="favoriteMeal"
+            value="meal1"
+          /><label for="breakfast">Breakfast</label>
+          <input
+            id="brunch"
+            type="radio"
+            name="favoriteMeal"
+            value="meal2
+          "
+          /><label for="brunch">Brunch</label>
+          <input
+            id="lunch"
+            type="radio"
+            name="favoriteMeal"
+            value="meal3"
+          /><label for="lunch">Lunch</label>
+          <input
+            id="dinner"
+            type="radio"
+            name="favoriteMeal"
+            value="meal4"
+          /><label for="dinner">Dinner</label>
+        </fieldset>
+      </section>
+      <br />
+
+      <section>
+        <h3>Checkbox</h3>
+        <fieldset>
+          <legend>Which meals do you enjoy ? (check all that apply)</legend>
+          <input
+            id="breakfast"
+            type="checkbox"
+            name="favoriteMeal"
+            value="meal1"
+          /><label for="breakfast">Breakfast</label>
+          <input
+            id="brunch"
+            type="checkbox"
+            name="favoriteMeal"
+            value="meal2
+            "
+          /><label for="brunch">Brunch</label>
+          <input
+            id="lunch"
+            type="checkbox"
+            name="favoriteMeal"
+            value="meal3"
+          /><label for="lunch">Lunch</label>
+          <input
+            id="dinner"
+            type="checkbox"
+            name="favoriteMeal"
+            value="meal4"
+          /><label for="dinner">Dinner</label>
+        </fieldset>
+      </section>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
