@@ -1,0 +1,38 @@
+/* 1. Type selectors */
+/* h1 {
+  color: orange;
+  text-align: center;
+} */
+
+h1 {
+  font-size: 165%;
+  font-weight: normal;
+}
+
+body {
+  color: green;
+}
+
+/* 2. Descendant selector */
+header p {
+  color: green;
+}
+
+/* 2. Descendant selector */
+header p span {
+  color: blue;
+}
+
+/* 3. Class Selector */
+.para-2 {
+  color: yellow;
+  background-color: blue;
+}
+
+/* footer .para-2 {
+  background-color: lightgrey;
+} */
+
+footer p {
+  color: orange;
+}
